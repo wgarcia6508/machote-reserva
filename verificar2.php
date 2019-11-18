@@ -441,7 +441,7 @@ Confirmación de reserva
 /**aqui se define el Total de l afactura */
 		$fintot = $ttot + $mepr + $btot ;
 		
-		echo $ttot."+".$mepr."+".$btot."=". $fintot;
+	
 
 ?>
 					<div class="col-md-6 col-sm-6">
@@ -449,14 +449,14 @@ Confirmación de reserva
                         <div class="panel-heading">
               
 				   
-
-                      
+						<h2> <b>Detalle se Reservacion</b></h2>
+						
                         </div>
                         <div class="panel-body">
-							<!-- width="200px "-->
+							
 						<table >
 						<tr>
-								<td><b>Detalles de la Reserva</b></td>
+								<td><b>Items</b></td>
 								<td>Valor</td> 
 							</tr>
 							<tr>
