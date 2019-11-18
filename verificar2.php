@@ -447,13 +447,18 @@ Confirmación de reserva
 					<div class="col-md-6 col-sm-6">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                   Detalles de habitaciones disponibles
+              
+				   
 
+                      
                         </div>
                         <div class="panel-body">
 							<!-- width="200px "-->
 						<table >
-							
+						<tr>
+								<td><b>Detalles de la Reserva</b></td>
+								<td>Valor</td> 
+							</tr>
 							<tr>
 								<td><b>Tipo de habitacion</b></td>
 								<td><button type="button" class="btn btn-primary "><?php  
@@ -475,7 +480,7 @@ Confirmación de reserva
 							<tr>
 								<td><b>Cantidad de Habitaciones </b></td>
 								<td><button type="button" class="btn btn-primary "><?php
-							echo $nroom;
+							echo "$".$nroom;
 
 								?> </button></td> 
 							</tr>
@@ -483,28 +488,28 @@ Confirmación de reserva
 								<td><b>Valor Habitacion * Numero de dias * Cantidad habitacion</b>	 </td>
 								<td><button type="button" class="btn btn-primary "><?php 
 								
-								echo $ttot;
+								echo "$".$ttot;
 								?> </button></td> 
 							</tr>
 							<tr>
 								<td><b>Paltillo</b>	 </td>
 								<td><button type="button" class="btn btn-primary "><?php 
 								
-								echo $type_of_meals;
+								echo "".$type_of_meal;
 								?> </button></td> 
 							</tr>
 							<tr>
 								<td><b>Platillo* Numero de dias </b>	 </td>
 								<td><button type="button" class="btn btn-primary "><?php 
 								
-								echo $mepr;
+								echo "".$mepr;
 								?> </button></td> 
 							</tr>
 							<tr>
 								<td><b>Extra de camas</b>	 </td>
 								<td><button type="button" class="btn btn-primary "><?php 
 								
-								echo"campo vacio";
+								echo "$".$btot;
 								?> </button></td> 
 							</tr>
 
@@ -513,7 +518,7 @@ Confirmación de reserva
 								<td><b>Total A facturar </b> </td>
 								<td> <button type="button" class="btn btn-danger "><?php 
 								
-								echo"campo vacio";
+								echo "$".$ttot;
 								 ?> </button></td> 
 							</tr>
 						</table>

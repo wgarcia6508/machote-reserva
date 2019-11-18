@@ -108,7 +108,7 @@ table.balance td { text-align: right; }
 
 aside h1 { border: none; border-width: 0 0 1px; margin: 0 0 1em; }
 aside h1 { border-color: #999; border-bottom-style: solid; }
-
+.pert { font-size: 11px; }
 /* javascript */
 
 .add, .cut
@@ -255,9 +255,10 @@ tr:hover .cut { opacity: 1; }
 		<header>
 			<h1>Invoice</h1>
 			<address >
-				<p>HOTEL AMANECER,</p>
-				<p>Nueva carretera de Kalmunai,<br>Batusai,<br>Sri Lanka.</p>
-				<p>(+94) 65 222 44 55</p>
+				<p align="center" >Orison Mangua, RUC: 00 1070 8950 050X</p>
+				<p>De Rotonda el Periodista 3 C. al Norte, 1C. Este y ½ C al norte Managua NIC.</p>
+				<p>Movistar: +505 8150 8813 || Claro: +505 5504 8307 || EE UU: +1 305 964-6612</p>
+			
 			</address>
 			<span><img alt="" src="https://orisonhostels.com/wp-content/uploads/2019/04/logo-orison-hostel-j.png"></span>
 		</header>
@@ -331,7 +332,22 @@ tr:hover .cut { opacity: 1; }
 		<aside>
 			<h1><span >Contáctenos</span></h1>
 			<div >
-				<p align="center">Email :- tusolutionweb@sgmail.com || Web :- http://tusolutionweb.blogspot.pe/ || Phone :- +94 65 222 44 55 </p>
+				<p align="center">Email : hellomanagua@orisonhostels.com || Web :- orisonhostels.com <br></br></p>
+
+			</div>
+			<div>
+			<p class="pert">Reglas del Hostal: Este documento significa que Conoces y Aceptas que:<br></br>
+			
+			<br></br>1.- La administración NO se Responsabiliza por Daños o  pérdidas de Bienes y Valores dejados en la habitación, o en los lockers de los dormitorios, como tampoco en las áreas comunes o de almacenaje del hostal.
+			<br></br>2.- Certificas que la información presentada y descrita es correcta.
+			<br></br>3.- Has leído los Términos y Condiciones del Hostal Orison Managua (OM) y estás de acuerdo en acatarlos.
+			<br></br>4.- No es permitido el Uso o consumo de Narcóticos de Ningún Tipo  dentro del Hostal, ni Beber Alcohol sin Límite o Fumar fuera los lugares señalados para tal fin.
+			<br></br>5.- Orison Managua se RESERVA  completamente el Derecho de Admisión de Huéspedes
+			<br></br>6.- Orison Managua no promueve la prostitución y mucho menos prostitución de menores.
+			<br></br>7.- Personas que no han sido previamente registradas y admitidas NO SON PERMITIDAS en las instalaciones del Hostal.
+			<br></br>8.- El Check In es desde las 11 am y el Check Out es hasta las 10 am
+			<br></br>9.- Si al solo criterio del Manager de OM, el comportamiento del huésped No es Aceptable para preservar la tranquilidad de los demas huespedes o la integridad de la propiedad, nos reservamos el derecho de tomar las acciones pertinentes hasta la Cancelación de la Reserva sin ninguna Devolución y si las consecuencias de tu comportamiento son de materia dolosa y criminal, tomaremos las medidas legales pertinentes.
+</p>
 			</div>
 		</aside>
 	</body>
