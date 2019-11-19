@@ -480,12 +480,13 @@ Confirmación de reserva
 							<tr>
 								<td><b>Cantidad de Habitaciones </b></td>
 								<td><button type="button" class="btn btn-primary "><?php
-							echo "$".$nroom;
+							echo $nroom;
 
 								?> </button></td> 
 							</tr>
 							<tr>
-								<td><b>Valor Habitacion * Numero de dias * Cantidad habitacion</b>	 </td>
+								 
+								</td> <b>  Noches X Cantidad habitacion</b>	 </td>
 								<td><button type="button" class="btn btn-primary "><?php 
 								
 								echo "$".$ttot;
@@ -499,7 +500,7 @@ Confirmación de reserva
 								?> </button></td> 
 							</tr>
 							<tr>
-								<td><b>Platillo* Numero de dias </b>	 </td>
+								<td><b>Platillo X  dias </b>	 </td>
 								<td><button type="button" class="btn btn-primary "><?php 
 								
 								echo "".$mepr;
