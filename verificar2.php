@@ -458,70 +458,69 @@ Confirmación de reserva
 						<tr>
 								<td><b>Items</b></td>
 								<td>Valor</td> 
-							</tr>
-							<tr>
+						</tr>
+						<tr>
 								<td><b>Tipo de habitacion</b></td>
-								<td><button type="button" class="btn btn-primary "><?php  
-									
-									
-											echo"$type_of_room";
-									
-								
-								
-								?> </button></td> 
-							</tr>
-							<tr>
+								<td><button type="button" class="btn btn-primary btn-large "><?php  
+                                    echo"$type_of_room";
+									?> </button></td> 
+						</tr>
+						<tr>
 								<td><b>Numero de dias</b>	 </td>
 								<td><button type="button" class="btn btn-primary "><?php 
 								echo $days;
 
 								?> </button></td> 
-							</tr>
-							<tr>
+						</tr>
+						<tr>
 								<td><b>Cantidad de Habitaciones </b></td>
 								<td><button type="button" class="btn btn-primary "><?php
 							echo $nroom;
 
 								?> </button></td> 
-							</tr>
-							<tr>
-								 
-								</td> <b>  Noches X Cantidad habitacion</b>	 </td>
-								<td><button type="button" class="btn btn-primary "><?php 
+						</tr>
+			
 								
-								echo "$".$ttot;
+						<tr>
+								<td><b>total habitacion</b>	 </td>
+								<td><button type="button" class="btn btn-primary "><?php 
+							 echo "$".$ttot;
+								//echo "".$type_of_meal;
 								?> </button></td> 
-							</tr>
-							<tr>
+										
+						</tr>
+						<tr>
 								<td><b>Paltillo</b>	 </td>
 								<td><button type="button" class="btn btn-primary "><?php 
-								
+							
 								echo "".$type_of_meal;
 								?> </button></td> 
-							</tr>
-							<tr>
-								<td><b>Platillo X  dias </b>	 </td>
+										
+						</tr>
+
+						<tr>
+								<td><b>Platillo X <?php echo $days;?>  dias </b>	 </td>
 								<td><button type="button" class="btn btn-primary "><?php 
 								
 								echo "".$mepr;
 								?> </button></td> 
-							</tr>
-							<tr>
+						</tr>
+						<tr>
 								<td><b>Extra de camas</b>	 </td>
 								<td><button type="button" class="btn btn-primary "><?php 
 								
 								echo "$".$btot;
 								?> </button></td> 
-							</tr>
+						</tr>
 
-							<tr>
+						<tr>
 
 								<td><b>Total A facturar </b> </td>
 								<td> <button type="button" class="btn btn-danger "><?php 
 								
 								echo "$".$ttot;
 								 ?> </button></td> 
-							</tr>
+						</tr>
 						</table>
 						
 					
@@ -558,7 +557,7 @@ Confirmación de reserva
     <!-- Metis Menu Js -->
     <script src="assets/js/jquery.metisMenu.js"></script>
     <!-- Morris Chart Js -->
-    <script src="assets/js/morris/raphael-2.1.0.min.js"></script>
+            <script src="assets/js/morris/raphael-2.1.0.min.js"></script>
     <script src="assets/js/morris/morris.js"></script>
     <!-- Custom Js -->
     <script src="assets/js/custom-scripts.js"></script>
