@@ -22,4 +22,5 @@ $Respuesta_de_venta=curl_exec($venta);
 
 $objDatosTranssaccion=json_decode($Respuesta_de_venta);
 print_r ( $objDatosTranssaccion);
+
 ?>
