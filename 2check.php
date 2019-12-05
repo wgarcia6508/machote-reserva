@@ -1,7 +1,7 @@
 <?php
 $ttYY = 2;
 $idT = 7;
-
+/** selecinme el monto tta de id tal o de ulimo id  */
 echo "$" . $ttYY;
 ?>
 
@@ -41,13 +41,11 @@ echo "$" . $ttYY;
                 <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
 
 
-                   
-
                     <div class="form-group">
                         <h5> Cargue $ 25 USD con 2Checkout </h5>
 
                         <!--formulario de tarjeta de crédito-->
-                        <form id="paymentFrm" method="post" action="paymentSubmit.php">
+                        <form id="paymentFrm" method="post" action="vpaymentSubmit.php">
                             <div class="form-group">
                                 <label> NAME </label>
                                 <input class="form-control" type="text" name="name" id="name" placeholder="Enter name" requiere enfoque automático>
