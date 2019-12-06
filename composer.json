@@ -1,23 +1,23 @@
 {
-    "name": "orison/phppaynew",
-    "description": "pagos reservacion",
-    "type": "project",
-    "require": {
-        "paypal/paypal-checkout-sdk": "1.0.0"
-    },
-    "license": "mit",
-    "authors": [
-        {
-            "name": "Walter Garcia",
-            "email": "wgarcia6508@gmail.com"
-        }
-    ],
-    "autoload": 
-        {
-           "psr-4 ":{
-               "App//":"app/"
-           }
-        }
-    ,
-    "minimum-stability": "dev"
+  "name": "orison/phppaynew",
+  "description": "pagos reservacion",
+  "type": "project",
+  "require": {
+    "paypal/paypal-checkout-sdk": "1.0.0",
+    "slim/slim": "^4.0",
+    "slim/psr7": "dev-master"
+  },
+  "license": "mit",
+  "authors": [
+    {
+      "name": "Walter Garcia",
+      "email": "wgarcia6508@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Pago\\": "pago/"
+    }
+  },
+  "minimum-stability": "dev"
 }
