@@ -4,11 +4,15 @@ use Pago\GetOrder;
 use Psr\Http\Message\ResponseInterface as Response;
 use Psr\Http\Message\ServerRequestInterface as Request;
 use Slim\Factory\AppFactory;
+use Selective\BasePath\BasePathDetector;
 
 require __DIR__ . '/../vendor/autoload.php';
 
 // Instantiate App
 $app = AppFactory::create();
+
+$basePath = (new BasePathDetector($_SERVER))->getBasePath();
+$app->setBasePath("$basePath/pago");
 
 // Add error middleware
 $app->addErrorMiddleware(true, true, true);

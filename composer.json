@@ -5,7 +5,8 @@
   "require": {
     "paypal/paypal-checkout-sdk": "1.0.0",
     "slim/slim": "^4.0",
-    "slim/psr7": "dev-master"
+    "slim/psr7": "dev-master",
+    "selective/basepath": "dev-master"
   },
   "license": "mit",
   "authors": [
